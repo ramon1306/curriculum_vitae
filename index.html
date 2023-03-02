@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <nav>
+		<ul id="menu">
+            <li><a href="#completo">Completo</a> </li>
+			<li><a href="#resumido">Resumido</a></li>
+		</ul>
+    </nav>
+        
+		
+		<div class="seccion">
+			<h2>Datos Personales</h2>			
+				<div id="foto" class="vcard">
+				  <img src="https://randomuser.me/api/portraits/men/71.jpg" alt="mifoto" class="foto"/>
+				  <span class="nombre">Leslie</span>
+				  <span class="apellido">Murray</span>
+				  
+				<sup><a href="#1-fn" id="fn1" title="ver pie de pagina">1</a></sup>
+
+				 <a class="email" href="mailto:leslie.murray@example.com">leslie.murray@example.com</a>
+				 <a class="url" href="http://leslie.murray.com.ar">http://leslie.murray.com.ar</a>
+				
+				<div class="adr">
+				  <span class="localidad">Spring Hill Rd</span>
+				  <span class="region">EEUU</span>
+
+				 </div>
+				</div>
+		</div>
+
+		<div class="seccion">
+			<h2>Datos Profesionales</h2>
+			
+			<p><label>Empresa </label>UTFPR</p>
+			<p><label>Empresa </label>Copel</p>
+			<p><label>Empresa </label>Google</p>
+		</div>
+
+		<div class="seccion">
+			<h2>Formación</h2>
+			
+			<p><label>Curso</label>Especialista Lenguaje html</p>
+			<p><label>Curso</label>Especialista Ciencias de la Computación</p>
+			<p><label>Curso</label>Técnico en Informática</p>
+		</div>
+
+        <div id="completo">
+            <h1>EXPERIENCIAS VARIAS</h1>
+            <p>Enseñanza particular, entre otros.</p>
+        </div>
+
+        <div id="resumido">
+            <h1>EXPERIENCIAS PROFESIONALES</h1>
+            <p>Desarrollador para Google, mercadolibre, Globant, etc.</p>
+        </div>
+		
+		<div id="footnote">
+			<li id="1-fn">1 - Microformato <a href="#fn1" title="volver">^</a></li>
+			<li>Este <a href="http://microformats.org/wiki/hcard">hCard</a> foi criado com <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</li>
+		</div>
+
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="cumple"
+            value="1977-06-13"
+            min="1940-01-01" max="2005-12-31">
+
+</body>
+</html>
